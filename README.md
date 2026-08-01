@@ -86,7 +86,3 @@ SAIDScanner.java   # single-file program: input, validation, extraction, output
 ## Compliance note
 
 If this project is extended to store or process real ID numbers, note that South Africa's **Protection of Personal Information Act (POPIA)** applies. ID numbers are personal information, and any system handling them at scale should implement appropriate consent, encryption, retention limits, and access logging.
-
-## License
-
-Add your preferred license here (e.g. MIT).
