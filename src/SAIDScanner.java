@@ -41,7 +41,7 @@ public class SAIDScanner
         System.out.println("|ID Number:               |" + id                              +"|");
         System.out.println("|Date of Birth (YYMMDD):  |" + dob                             +"|");
         System.out.println("|Gender:                  |" + gender                          +"|");
-        System.out.println("|Citizenship:             |" + citizenship +                     "|");
+        System.out.println("|Citizenship:             |" + citizenship+                     "|");
         System.out.println("|_________________________|" + "_________________________________|");
         System.out.println("|_________________________|" + "_________________________________|");
     }
