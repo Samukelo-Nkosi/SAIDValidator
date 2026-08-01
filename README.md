@@ -1,4 +1,4 @@
-# SAIDScanner
+# SA ID Scanner
 
 A simple Java command-line tool that reads a 13-digit South African ID number, validates its structure, and extracts the information encoded within it — date of birth, gender, and citizenship status.
 
