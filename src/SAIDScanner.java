@@ -35,12 +35,15 @@ public class SAIDScanner
         String dob = extractDateOfBirth(id);
         String citizenship = extractCitizenship(id);
 
-        System.out.println("----- ID Validation -----");
-        System.out.println("ID Number   : " + id);
-        System.out.println("Date of Birth (YYMMDD): " + dob);
-        System.out.println("Gender      : " + gender);
-        System.out.println("Citizenship : " + citizenship);
-        System.out.println("---------------------------");
+        System.out.println("___________________________" + "__________________________________");
+        System.out.println("|***** ID Validation *****|" + "************** INFO *************|");
+        System.out.println("|_________________________|" + "_________________________________|");
+        System.out.println("|ID Number:               |" + id                              +"|");
+        System.out.println("|Date of Birth (YYMMDD):  |" + dob                             +"|");
+        System.out.println("|Gender:                  |" + gender                          +"|");
+        System.out.println("|Citizenship:             |" + citizenship +                     "|");
+        System.out.println("|_________________________|" + "_________________________________|");
+        System.out.println("|_________________________|" + "_________________________________|");
     }
 
     // Check the ID is exactly 13 characters
